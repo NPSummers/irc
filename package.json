@@ -1,0 +1,21 @@
+{
+  "name": "irc-chat-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker backend for IRC Chat mod",
+  "main": "cloudflare-worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "irc",
+    "minecraft"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+

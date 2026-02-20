@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "irc",
+  "version": "${version}",
+  "name": "IRC Chat",
+  "description": "Cross-server IRC chat with Discord verification",
+  "authors": [
+    "IRC Mod"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/example/irc-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/irc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.irc.IrcModClient"
+    ],
+    "main": [
+      "com.irc.IrcMod"
+    ]
+  },
+  "mixins": [
+    "irc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
+
